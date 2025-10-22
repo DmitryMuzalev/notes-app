@@ -7,7 +7,25 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "lint:fix": "eslint . --fix",
+    "lint:scss": "stylelint \"**/*.{css,scss,sass}\"",
+    "lint:scss:fix": "stylelint \"**/*.{css,scss,sass}\" --fix",
+    "preview": "vite preview",
+    "prepare": "husky",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "src/**/*.{css,scss}": [
+      "stylelint --fix",
+      "prettier --write"
+    ],
+    "src/**/*.{json,md,html}": [
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.1",
@@ -25,10 +43,17 @@
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^5.0.4",
     "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.5",
     "sass": "^1.93.2",
+    "stylelint": "^16.25.0",
+    "stylelint-config-prettier-scss": "^1.0.0",
+    "stylelint-config-standard-scss": "^16.0.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.45.0",
     "vite": "^7.1.7"
