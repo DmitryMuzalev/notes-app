@@ -1,3 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400;700&family=Source+Code+Pro:wght@400;500&display=swap");
+
+:root {
+  /* Color */
+  --neutral-950: #0e121b;
+  --neutral-900: #191b25;
+  --neutral-800: #232530;
+  --neutral-700: #2b303b;
+  --neutral-600: #525866;
+  --neutral-500: #717784;
+  --neutral-400: #99a0ae;
+  --neutral-300: #cacfd8;
+  --neutral-200: #e0e4ea;
+  --neutral-100: #f3f5f8;
+  --neutral-50: #f5f7fa;
+  --neutral-0: #ffffff;
+
+  --blue-700: #2547d0;
+  --blue-500: #335cff;
+  --blue-100: #ebf1ff;
+
+  --green-500: #21c16b;
+  --green-100: #d1fbe9;
+
+  --red-500: #fb3748;
+  --red-100: #ffd5d8;
+
+  /* Fonts */
+  --font-Inter: "Inter", sans-serif;
+  --font-SourceCodePro: "SourceCodePro", monospace;
+  --font-NotoSerif: "NotoSerif", serif;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   padding: 0;
+  font-family: var(--font-NotoSerif);
+}
+
+button,
+input {
+  all: unset;
+}
+button:hover {
+  cursor: pointer;
+}
+ul,
+ol {
+  list-style: none;
 }
