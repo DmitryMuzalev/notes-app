@@ -1,0 +1,88 @@
+:root {
+  /* Color */
+  --neutral-950: #0e121b;
+  --neutral-900: #191b25;
+  --neutral-800: #232530;
+  --neutral-700: #2b303b;
+  --neutral-600: #525866;
+  --neutral-500: #717784;
+  --neutral-400: #99a0ae;
+  --neutral-300: #cacfd8;
+  --neutral-200: #e0e4ea;
+  --neutral-100: #f3f5f8;
+  --neutral-50: #f5f7fa;
+  --neutral-0: #fff;
+  --blue-700: #2547d0;
+  --blue-500: #335cff;
+  --blue-100: #ebf1ff;
+  --green-500: #21c16b;
+  --green-100: #d1fbe9;
+  --red-500: #fb3748;
+  --red-100: #ffd5d8;
+
+  /* Spacings */
+  --spacing-0: 0px;
+  --spacing-025: 2px;
+  --spacing-050: 4px;
+  --spacing-075: 6px;
+  --spacing-100: 8px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+  --spacing-250: 20px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-700: 56px;
+  --spacing-800: 64px;
+  --spacing-1000: 80px;
+
+  /* Radius */
+  --radius-0: 0px;
+  --radius-4: 4px;
+  --radius-6: 6px;
+  --radius-8: 8px;
+  --radius-10: 10px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-24: 24px;
+  --radius-full: 1000px;
+
+  /* Typography */
+
+  /* == Large sizes == */
+  --text-24-bold: 1.5rem; /* 24px */
+  --text-24-bold-line-height: 120%;
+  --text-24-bold-letter-spacing: -0.5px;
+  --text-20-bold: 1.25rem; /* 20px */
+  --text-20-bold-line-height: 120%;
+  --text-20-bold-letter-spacing: -0.5px;
+
+  /* == Medium sizes == */
+  --text-16-semibold: 1rem; /* 16px */
+  --text-16-semibold-line-height: 120%;
+  --text-16-semibold-letter-spacing: -0.3px;
+  --text-14-medium: 0.875rem; /* 14px */
+  --text-14-medium-line-height: 120%;
+  --text-14-medium-letter-spacing: -0.2px;
+  --text-14-regular: 0.875rem; /* 14px */
+  --text-14-regular-line-height: 120%;
+  --text-14-regular-letter-spacing: -0.2px;
+
+  /* == Small sizes == */
+  --text-12-regular: 0.75rem; /* 12px */
+  --text-12-regular-line-height: 120%;
+  --text-12-regular-letter-spacing: -0.2px;
+
+  /* Font weights */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Fonts */
+  --font-inter: "Inter", sans-serif;
+  --font-source-code-pro: "SourceCodePro", monospace;
+  --font-noto-serif: "NotoSerif", serif;
+}

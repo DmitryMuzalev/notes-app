@@ -1,0 +1,21 @@
+@media (prefers-color-scheme: light) {
+  [data-theme="system"] {
+    --bg-color: var(--neutral-0);
+    --bg-color-secondary: var(--neutral-100);
+    --text-color-primary: var(--neutral-950);
+    --text-color-secondary: var(--neutral-600);
+    --border-color: var(--neutral-200);
+    --default-hover-color: var(--neutral-100);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-theme="system"] {
+    --bg-color: var(--neutral-950);
+    --bg-color-secondary: var(--neutral-700);
+    --text-color-primary: var(--neutral-0);
+    --text-color-secondary: var(--neutral-300);
+    --border-color: var(--neutral-600);
+    --default-hover-color: var(--neutral-800);
+  }
+}
