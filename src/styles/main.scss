@@ -1,11 +1,11 @@
-@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400;700&family=Source+Code+Pro:wght@400;500&display=swap";
-
 // Base
-@import "base/reset";
-@import "base/root";
-@import "base/base";
+@use "base/reset";
+@use "base/root";
+@use "base/base";
 
 // Theme
-@import "themes/dark-theme";
-@import "themes/light-theme";
-@import "themes/system-theme";
+@use "themes/dark-theme";
+@use "themes/light-theme";
+@use "themes/system-theme";
+
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400;700&family=Source+Code+Pro:wght@400;500&display=swap";

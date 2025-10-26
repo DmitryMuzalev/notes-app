@@ -1,4 +1,17 @@
+[data-font="sans-serif"] {
+  --ff-base: var(--font-inter);
+}
+
+[data-font="monospace"] {
+  --ff-base: var(--font-source-code-pro);
+}
+
+[data-font="serif"] {
+  --ff-base: var(--font-noto-serif);
+}
+
 body {
-  padding: 0;
-  font-family: var(--font-inter);
+  font-family: var(--ff-base);
+  background-color: var(--background-color);
+  color: var(--text-color-main);
 }
