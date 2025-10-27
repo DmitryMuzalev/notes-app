@@ -1,7 +1,9 @@
+import { MobileMenu } from './components';
+
 function App() {
   return (
     <>
-      <div>Notes App</div>
+      <MobileMenu />
     </>
   );
 }
