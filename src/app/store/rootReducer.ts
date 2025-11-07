@@ -1,4 +1,4 @@
-import { themeReducer } from '@/features/theme-switcher/model';
+import { themeReducer } from '../features/theme-switcher/model';
 
 export const rootReducer = {
   theme: themeReducer,
